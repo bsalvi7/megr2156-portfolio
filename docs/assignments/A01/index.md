@@ -30,6 +30,12 @@ In its current state, Frederick's portfolio would not meet employer's expectatio
 
 Frederick's language within his portfolio would meet the expectations of an employer, with the descriptions of himself and his work being concise and informational. Furthermore, details regarding the purpose of the project, such as design competitions, and their results are provided, making his work traceable. However, the portfolio would need to be updated with working links before being sent to employers.
 
+Task B: Product Analysis
+
+The physical product I will be discussing is the door hinge, which can be found throughout my home. Its purpose is purely mechanical and only contains three primary components, that being the leafs, knuckle, and pin. There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
+
+
+
 ## Analyze
 
 
