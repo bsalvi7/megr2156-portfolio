@@ -32,7 +32,14 @@ Frederick's language within his portfolio would meet the expectations of an empl
 
 Task B: Product Analysis
 
-The physical product I will be discussing is the door hinge, which can be found throughout my home. Its purpose is purely mechanical and only contains three primary components, that being the leafs, knuckle, and pin. There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
+The physical product I will be discussing is the door hinge, which can be found throughout my home. Its purpose is purely mechanical and only contains three primary components, that being the leafs, knuckle, and pin.
+
+The primary function of the door hinge is to control the opening and closing of a door. It allows the door to pivot about one side of the door frame while keeping the door supported and aligned within the frame. 
+
+The governing model that describes a door hinge is a rotational joint. Its variables include its position (\theta), described by the angle the hinge is relative to the frame, as well as its angular velocity (w) and acceleration (\omega). Variables also include the torque (T) applied, and the moment of inertia (T) resisting rotation. To ensure the model is valid, it is assumed that the hinge remains fixed to the door frame, keeping the axis fixed as well.
+
+There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
+
 
 
 
