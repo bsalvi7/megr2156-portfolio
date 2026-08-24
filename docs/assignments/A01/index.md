@@ -40,9 +40,9 @@ The governing model that describes a door hinge is a rotational joint. Its varia
 
 There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
 
-![Image of Leafs](IMG8965.pdf)
+![Image of Leafs](IMG_8965.pdf)
 
-![Closeup of Knuckle and Pin](IMG8963.pdf)
+![Closeup of Knuckle and Pin](IMG_8963.pdf)
 
 
 
