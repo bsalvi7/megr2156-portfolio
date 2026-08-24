@@ -2,6 +2,8 @@
 
 ## Objective
 
+## Analyze
+
 Task A: Portfolio Analysis
 
 The first portfolio example which I pulled from the GitHub website is that of Nathan Hoong from the University of San Diego. His portfolio is linked here: https://nhoong.github.io
@@ -40,15 +42,17 @@ The governing model that describes a door hinge is a rotational joint. Its varia
 
 There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
 
-![Image of Leafs](IMG_8965.pdf)
+<img src="leafs.jpeg" alt="Image of Leafs" width="300">
 
-![Closeup of Knuckle and Pin](IMG_8963.pdf)
+This pictures shows the leafs which are screwed to the side of the door and door frame to secure the door hinge in place. The large and flat area of the leafs on both sides ensures a secure connection and allows the door to remain fixed on its axis. The edges of the leafs form the knuckle in the center of the two leafs, allowing a space for the pin to be inserted and secured in place. The connections on both the door and frame allow the force exerted on the door to be transferred to the knuckle and changed to rotational motion.
 
+<img src="knucklepin.jpeg" alt="Closeup of Knuckle and Pin" width="300">
 
+This pictures shows the other side of the door hinge, showcasing the knuckle and pin. The knuckle is formed by the two leafs, creating a space for the pin to be inserted through and properly secured. While the knuckle transfers forces on the door into rotational motion, the pin ensures that this rotation remains fixed along the axis. This constraint ensures the door does not experience translational motion when being pushed.
 
+As noted, the primary function of the door hinge is to control how the door opens and closes in a way that is consistent and reliable. There are many alternatives to this which accomplish the same function. One common example is the sliding door, which utilizes fixed rails and rollers with bearings to allow lateral forces on the door to translate into a smooth sliding motion to properly open and close the door. Other examples improve upon the original design of the door hinge, such as continuous door hinges. Continuous hinges utilizes the same leaf, knuckle, and pin construction but stretches the entire length of the door. This allows one singular assembly rather than the two or three door hinges needed traditionally. This solution provides better weight distribution along the hinge, making a more stable door that less vulnerable to sagging over time. 
 
-## Analyze
-
+One interesting design choice of the door hinge is the pin not having any hard mounts which secures it to the knuckle. This is likely done for making the installation and removal process of the door hinge faster, without the need to remove the leafs from the door hinge and frame to disassemble the hinge.  
 
 ## Decide
 
