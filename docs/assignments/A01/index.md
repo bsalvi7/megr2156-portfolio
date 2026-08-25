@@ -44,7 +44,7 @@ The physical product I will be discussing is the door hinge, which can be found 
 
 The primary function of the door hinge is to control the opening and closing of a door. It allows the door to pivot about one side of the door frame while keeping the door supported and aligned within the frame. 
 
-The governing model that describes a door hinge is a rotational joint. Its variables include its position (\theta), described by the angle the hinge is relative to the frame, as well as its angular velocity (w) and acceleration (\omega). Variables also include the torque (T) applied, and the moment of inertia (T) resisting rotation. To ensure the model is valid, it is assumed that the hinge remains fixed to the door frame, keeping the axis fixed as well.
+The governing model that describes a door hinge is a rotational joint. Its variables include its position, described by the angle the hinge is relative to the frame, as well as its angular velocity and acceleration. Variables also include the torque applied, and the moment of inertia resisting rotation. To ensure the model is valid, it is assumed that the hinge remains fixed to the door frame, keeping the axis fixed as well.
 
 There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
 
