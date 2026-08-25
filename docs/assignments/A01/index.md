@@ -48,9 +48,13 @@ The governing model that describes a door hinge is a rotational joint. Its varia
 
 There are many patents involving door hinges, but the one I will be referencing is US2786229A, providing a classic overview of the door hinge by Jolm D. Carroll from 1954. 
 
+>Door Hinge Leafs
+
 <img src="leafs.jpeg" alt="Image of Leafs" width="300">
 
 This pictures shows the leafs which are screwed to the side of the door and door frame to secure the door hinge in place. The large and flat area of the leafs on both sides ensures a secure connection and allows the door to remain fixed on its axis. The edges of the leafs form the knuckle in the center of the two leafs, allowing a space for the pin to be inserted and secured in place. The connections on both the door and frame allow the force exerted on the door to be transferred to the knuckle and changed to rotational motion.
+
+>Door Hinge Knuckle and Pin
 
 <img src="knucklepin.jpeg" alt="Closeup of Knuckle and Pin" width="300">
 
