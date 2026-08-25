@@ -2,15 +2,15 @@
 
 ## Objective
 
-Analyze: Identify the governing model, state its assumptions, and apply it to the right problem.
+>Analyze: Identify the governing model, state its assumptions, and apply it to the right problem.
 
-Decide: Make a choice between alternatives, document your criteria, and justify your selection.
+>Decide: Make a choice between alternatives, document your criteria, and justify your selection.
 
-Communicate: Present your reasoning so clearly that a colleague can reproduce your work without asking you a single question.
+>Communicate: Present your reasoning so clearly that a colleague can reproduce your work without asking you a single question.
 
 ## Analyze
 
-Task A: Portfolio Analysis
+>Task A: Portfolio Analysis
 
 The first portfolio example which I pulled from the GitHub website is that of Nathan Hoong from the University of San Diego. His portfolio is linked here: https://nhoong.github.io
 
@@ -38,7 +38,7 @@ In its current state, Frederick's portfolio would not meet employer's expectatio
 
 Frederick's language within his portfolio would meet the expectations of an employer, with the descriptions of himself and his work being concise and informational. Furthermore, details regarding the purpose of the project, such as design competitions, and their results are provided, making his work traceable. However, the portfolio would need to be updated with working links before being sent to employers.
 
-Task B: Product Analysis
+>Task B: Product Analysis
 
 The physical product I will be discussing is the door hinge, which can be found throughout my home. Its purpose is purely mechanical and only contains three primary components, that being the leafs, knuckle, and pin.
 
@@ -62,6 +62,24 @@ One interesting design choice of the door hinge is the pin not having any hard m
 
 ## Decide
 
+>Homepage Identity
+
+The homepage serves to provide the reader with an overview that makes it clear this repository contains the projects I will complete and objectives I will fulfill throughout MEGR 2156. It contains an overview of the three pillars that each project will be based on. This gives the reader and understanding of what Analyze, Decide, and Communicate mean from an engineering standpoint. The homepage then covers portfolio examples, analyzing them and determining how they would be perceived by an employer. This provides the reader with a standard that can be expected throughout the repository, giving design and writing decisions a basis to be compared to. The homepage then features a product analysis, with the reference being the traditional door hinge and its patent. The overview of how it functions and what its primary goal is shows the reader the engineering mindset when performing an analysis. For the reader, this ensures that they are able to follow future analyses by understanding the general structure of an engineering analysis of a design. Furthermore, the alternatives listed show the reader that engineering problems rarely have a singular solution, with many different designs being possible to create a resolution. 
+
+>Intentional Customization
+
+The change I made to my template was the inclusion of block quotes to emphasize sections of the page and primary objectives. In practice, this provides emphasis on what the focus of the page is and when the page moves forward to a new section or topic of discussion. For the reader, this makes reading the page more efficient by creating a visual indicator of important shifts that allow the reader to follow main points closely. By default, the template did not feature block quotes, meaning that shifts in the topic were up to the reader to understand when reading. 
+
+>Documentation Standard
+
+For every assignment entry, I will give my best effort in producing documentation that follows the primary objectives provided in each assignment while keeping my writing grounded in an engineering mindset detailed by the three pillars. 
 
 ## Communicate
+
+>To Be Reviewed
+
+"What does it mean to defend an engineering decision: and do you currently know how to do it?"
+
+To defend an engineering decision means to back the decisions and design choices made by explaining how the data and analysis correlated with the decision being the best way forward. Defending a decision also includes showing how other decisions or choices are not as effective as the one chosen with the same analysis standards. At the moment, I believe that I do not yet know how to properly do this. I have completed various projects that involved making decisions via engineering reasoning in previous semesters, but I have not been challenged with defending my design choices.
+
 
