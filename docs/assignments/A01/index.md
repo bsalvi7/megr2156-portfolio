@@ -82,4 +82,6 @@ For every assignment entry, I will give my best effort in producing documentatio
 
 To defend an engineering decision means to back the decisions and design choices made by explaining how the data and analysis correlated with the decision being the best way forward. Defending a decision also includes showing how other decisions or choices are not as effective as the one chosen with the same analysis standards. At the moment, I believe that I do not yet know how to properly do this. I have completed various projects that involved making decisions via engineering reasoning in previous semesters, but I have not been challenged with defending my design choices.
 
+In total, I spent about 6 hours completing this assignment.
+
 
