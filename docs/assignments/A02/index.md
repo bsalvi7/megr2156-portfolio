@@ -6,7 +6,7 @@ The objective of this assignment was to create a lightweight planar truss given 
 
 ## Analyze
 
-Values and Constraints
+>Values and Constraints
 
 Before I began creating a design, I took the time to look over the constraints and values I was given for this project. Firstly, we were required to use A500 structural steel for our truss members, while the pins were made of a hardened tool steel with given specifications listed later in the assignment. The safety factor to be used for the members was set to 3.5, with pins having a higher factor of 4. An image was provided showing the constraints of the design, pictured below: 
 
@@ -17,13 +17,13 @@ Point B was specified to be a roller while Point A was a pin. We were also given
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
-Creating the Design
+>Creating the Design
 
 To design the truss, I began by connecting all of the points alongside one another, creating a trapezoid that would serve as the outer members of my truss design. It was noted to keep our geometry simple, but I knew that triangles are the most effective at supporting a load. With this in mind, I created a cross member that went from point B to D, providing added support. I deliberated between going from B to D or A to C, but I decided that an extra member on the downward acting force would be more effective. I also thought about doing both members, but the crossing members on a planar truss would make the design to complicated to recreate in CAD and open to errors. 
 
 <img src="Truss drawing.jpeg" alt="Truss drawing" width="500">
 
-Solving the Design
+>Solving the Design
 
 Once my design was completed, I began to solve for the lengths of each member using Pythagorean theorem. I then generated a free body diagram of the outward members and external forces, solving for the unknown pin forces. 
 
@@ -37,13 +37,13 @@ Once forces were solved for, I then focused on solving for the minimum area need
 
 <img src="truss_area_weight.jpeg" alt="Truss Area and Weight" width="500">
 
-Solving the Pins
+>Solving the Pins
 
 I then followed the same methodology for the pins, including a free body diagram of pin A to get a better understanding of how it was being affected by the forces acting on the pin. At first, I was going to make the pins flush thickness of the truss members. However, I believed that I should extend them outwards slightly in the case that they would be used to connect the truss to a larger project, such as a bridge. At this point, I also decided to set the cross sections of the truss to square, as it allowed for a simpler calculation of the area needed for the pins. It also made creating the truss on CAD more efficient. I assumed that pins would be utilized at each of the joints, so I multiplied the original found weight by 4 in order to get the total weight of the pins. 
 
 <img src="pinweight.jpeg" alt="Pin Area and Weight" width="500">
 
-3D CAD Model
+>3D CAD Model
 
 Moving to Solidworks, I began to work on my 3D model of my design. I started by creating a front facing sketch of all the members, which I would later extrude. 
 
@@ -82,7 +82,7 @@ With both parts completed, I created the final assembly, including the truss and
 <img src="27.png" alt="Pin Alignment" width="500">
 <img src="28.png" alt="Final Assembly" width="500">
 
-Simulating the Design
+>Simulating the Design
 
 I then created a static simulation for the truss, ensuring that each pin was characterized as one within the software. I also ensured the pin on point B was set as a roller, while point A was set as a fixed pin, with both supporting the truss within the simulation. I also added the forces at their respective points at C and D. 
 
@@ -102,7 +102,7 @@ To end the assignment, I went back to the assembly to review the calculated mass
 
 ## Communicate
 
-Key Takeaways
+>Key Takeaways
 
 By doing this assignment, I was able to learn how to create and fully define a design and bring it out of the paper and into a 3D environment. By going thorough the process, I was able to see how many of the assumptions made when making calculations need to be tackled differently when being implemented in 3D. This is evident in the joints of each member, that when in 3D create many overlaps that proved to be quite difficult to deal with. In a professional scenario where this design was being distributed, I would have had to find a way to get each member attached to the pin without overlapping or compromising the strength of the truss. This is a new skill that I will be able to apply in future projects where designs must be brought from paper to the real world, where I can anticipate changes that may need to be made. 
 
