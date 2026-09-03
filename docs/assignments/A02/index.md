@@ -107,3 +107,18 @@ To end the assignment, I went back to the assembly to review the calculated mass
 By doing this assignment, I was able to learn how to create and fully define a design and bring it out of the paper and into a 3D environment. By going thorough the process, I was able to see how many of the assumptions made when making calculations need to be tackled differently when being implemented in 3D. This is evident in the joints of each member, that when in 3D create many overlaps that proved to be quite difficult to deal with. In a professional scenario where this design was being distributed, I would have had to find a way to get each member attached to the pin without overlapping or compromising the strength of the truss. This is a new skill that I will be able to apply in future projects where designs must be brought from paper to the real world, where I can anticipate changes that may need to be made. 
 
 From start to finish, this project took about 6 hours. An hour of this time was spent with difficulties downloading and setting up Solidworks.
+
+CAD Parts and Assembly can be downloaded here:
+
+<a href="A2 Truss.SLDPRT" download>
+  Truss Part (.STL)
+</a>
+
+<a href="A2 Pins.SLDPRT" download>
+  Pin Part(.STL)
+</a>
+
+<a href="A2 Truss Assembly.SLDASM" download>
+  Truss Assembly (.STL)
+</a>
+
