@@ -105,3 +105,9 @@ I used these values to then find the new maximum stress at the edge of the hole,
 >Lessons Learned
 
 Throughout this project, I learned how to move my skills in CAD beyond modeling and towards simulation, which I had previously not done before. I also was able to improve my skills at analyzing designs that now make me more comfortable with determining how well a design performs and how different conditions change its effectiveness. One mistake that I made in this assignment was forgetting to incorporate the Equations tool to facilitate the dimensioning of my model. Although the model was still accurate, I still corrected the error to make sure the dimensions connected with one another and would be easily manipulatable with new values. Overall, I spent about 4 hours on this assignment. 
+
+CAD Parts and Assembly can be downloaded here:
+
+<a href="A3 Bar.zip" download>
+  Bar Part (.STL)
+</a>
