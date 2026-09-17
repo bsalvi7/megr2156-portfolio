@@ -92,6 +92,10 @@ With this, the final model of the motor mount was completed.
 
 ## Communicate
 
+>Mistakes and Lessons Learned
+
+Throughout this project, I made some minor mistakes with one major mistake that cost me a lot of time. The first mistake that I made was forgetting to use the equation tool when creating the model for the first time. This meant that I had to go back and write the entire equation tool and then redo the dimensions of all the existing sketches and extrudes I had made. To avoid having to do this in the future, I can take more time to practice using Solidworks in this fashion, building a habit of dimensioning with the Equation tool. The second mistake I made was not including equations and given values within the Equation tool that relate the dimensions to one another. For example, I could have inputted the bending equations and related them to the variables, which would allow me to make changes to dimensions easily based on changes to material properties, safety factor, or bending thresholds. This oversight taught me the usefulness of parametric modeling and helped me understand how it is meant to be utilized to its fullest potential. The final mistake that I made was accidentally closing GitHub when I had already finished the entire documentation portion of this project. By not saving for over an hour, I lost almost all of my writing, forcing me to have to redo the entire process. While frustrating, this mistake has made it clear to me the importance of constantly saving and backing up your work to ensure that none is lost. 
+
 Appendix A:
 
 https://nexusmodels.co.uk/products/j-perkins-electric-motor-mount-brush-brushless-4447205
