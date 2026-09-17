@@ -22,13 +22,20 @@ For design inspiration, I researched similar designs for smaller-scale electric 
 
 ## Decide
 
+>Defining Knowns
 
+Before beginning calculations, I first needed to decide on my given values to set up my equations. Firstly, I needed to decide a material to use. I decided to use ABS, as not only is it very commonly used for these applications, but it is a material registered in Solidworks, allowing my material properties to be very accurate. For the ABS material, I selected a Young's Modulus of 2.5 GPa and a Yield Strength of 39 MPa to use for my calculations. I pulled these from a range of values provided in an ABS material properties table. 
+
+<img width="500" alt="ABS Material Properties" src="0.png" />
+
+I then needed to choose a thickness for both features. For feature 1 (cantilever) I decided on a thickness of 8mm, as it allowed for the shaft to stick out enough from the bottom of the feature while also maintaining a thickness that woudl not produce structural concerns. For feature 2 (fixed to wall) I choose a thickness of 6mm to ensure that it was thin enough to allow screws to go through the ABS material and be long enough to mount properly on the wall. 
+
+>Solving Feature 1
 
 <img width="500" alt="Feature 1" src="Feature1.jpeg" />
 <img width="500" alt="Feature 2" src="Feature2.jpeg" />
 <img width="500" alt="Given Constraints" src="Givens.jpeg" />
 <img width="500" alt="Sketch" src="Sketch.jpeg" />
-<img width="500" alt="Area of Bar" src="0.png" />
 <img width="500" alt="Area of Bar" src="1.png" />
 <img width="500" alt="Area of Bar" src="2-1.png" />
 <img width="500" alt="Area of Bar" src="2-2.png" />
