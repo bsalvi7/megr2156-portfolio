@@ -32,25 +32,63 @@ I then needed to choose a thickness for both features. For feature 1 (cantilever
 
 >Solving Feature 1
 
+With the knowns defined, I was now able to begin calculations. I began by drawing a free body diagram of feature 1, with the 300N force on the shaft being included. I first transferred this force to be applied to the feature by creating a force moment couple. I calculated the moment by multiplying the force P by athe distance of the edge of the shaft from the feature, giving a moment of 3N*m. I then used the max stress equation and modified it to include the given safety factor. I then rearranged the equation to solve for base width, inputted the values, and solved. Next, I used this value to calculate the moment of inertia and rearranged the max deflection equation to solve for the final dimension: the length of the feature. I applied all of the known values and solved for length, using it to calculate the minimum area needed for feature 1. 
+
 <img width="500" alt="Feature 1" src="Feature1.jpeg" />
+
+>Solving Feature 2
+
+Moving on to feature 2, I began with another free body diagram and transferred the force moment couple to feature 2's bottom edge where it connects to feature 1. I then solved for base width using the max stress equation. Once I solved for b, I noticed it was larger than the base width for feature 1. To ensure dimensional consistency, I made the base of feature 1 equal to this newly calculated base width. This also ensured that the motor would be fully supported at the base, as this made it wide enough to fully support the bottom of the motor. Under this reasoning, I also extended the length of feature 1 to 35mm. With this settled, I finished the moment of inertia, length, and area calculations for feature 2. I also recalculated the area for feature 1 using the new values. 
+
 <img width="500" alt="Feature 2" src="Feature2.jpeg" />
-<img width="500" alt="Given Constraints" src="Givens.jpeg" />
+
+>Sketching the Design
+
+With the calculations completed, I then created a hand drawn isometric sketch of the motor mount to scale with the provided dimensions. To refine and complete the design prior to making it on Solidworks, I incorporated the hole for the shaft, centering it on the top plane of feature 1. I gave it a diameter of 6.5mm to ensure a snug fit of the shaft while also providing it enough room to spin freely. I also included the holes for the screws, centering them along the visible inside plane of feature 2. These have a diameter of 3.4mm as given by the project. Finally, I took inspiration from the designs I previously researched and included an indentation centered on feature 1 to fit the face of the motor that sticks out slightly from the rest of the body. I gave it a 2mm depth and a diameter of 18.5mm to ensure a snug fit. 
+
 <img width="500" alt="Sketch" src="Sketch.jpeg" />
-<img width="500" alt="Area of Bar" src="1.png" />
-<img width="500" alt="Area of Bar" src="2-1.png" />
-<img width="500" alt="Area of Bar" src="2-2.png" />
-<img width="500" alt="Area of Bar" src="3.png" />
-<img width="500" alt="Area of Bar" src="4.png" />
-<img width="500" alt="Area of Bar" src="5.png" />
-<img width="500" alt="Area of Bar" src="6.png" />
-<img width="500" alt="Area of Bar" src="7.png" />
-<img width="500" alt="Area of Bar" src="8.png" />
-<img width="500" alt="Area of Bar" src="9.png" />
-<img width="500" alt="Area of Bar" src="10.png" />
-<img width="500" alt="Area of Bar" src="11.png" />
-<img width="500" alt="Area of Bar" src="12.png" />
-<img width="500" alt="Area of Bar" src="13.png" />
-<img width="500" alt="Area of Bar" src="14.png" />
+
+>Creating the CAD Model
+
+I was now ready to create my Solidworks model. I began by setting the material of the part to ABS, ensuring that material properties were fully accurate. 
+
+<img width="500" alt="ABS Material Set" src="1.png" />
+
+
+Next, I set my units to millimeters to make inputting my dimensions easier without the need to make conversions that take up time and can produce inaccuracies. 
+
+<img width="500" alt="MMGS" src="2-1.png" />
+
+I then opened up the Equations tool, assigning each dimension to a variable and providing a description for each. This will allow me to using parametric modeling to easily dimension my model and make changes to dimensions without having to dig through the sketches of my model. 
+
+<img width="500" alt="Equation Tool" src="2-2.png" />
+
+I was now ready to begin modeling. I began by created the sketch for features 1 and 2, dimensioning them using the variables form the Equation tool. I set feature 1 about the origin and then used the corner of feature 1 to set the placement of feature 2's sketch. I then extruded both sketches to the desired base width. This created the main shape of the motor mount. 
+
+<img width="500" alt="Sketch 1" src="3.png" />
+<img width="500" alt="Extrude 1" src="4.png" />
+<img width="500" alt="Sketch 2" src="5.png" />
+<img width="500" alt="Extrude 2" src="6.png" />
+
+To begin the cuts, I created a sketch on the top plane of feature 1 to create the cut for the face of the motor. I created centerlines aligned with the midpoints of the feature to center the sketch, and created a dimensioned circle. I then cut down to a 2mm depth. 
+
+<img width="500" alt="Centering" src="7.png" />
+<img width="500" alt="Motor Face Cut Sketch" src="8.png" />
+<img width="500" alt="Motor Face Cut" src="9.png" />
+
+I then used the center of the face cut sketch to center the shaft sketch, dimensioning it and using the "Through All" setting to cut all the way through feature 1.
+
+<img width="500" alt="Shaft Cut Sketch" src="10.png" />
+<img width="500" alt="Shaft Cut" src="11.png" />
+
+Similarly, I created a sketch of the two screw holes, using a centerline across the middle of the inside face of feature 2. I then used the "Through All" setting to complete the final cut. 
+
+<img width="500" alt="Screws Cut Sketch" src="12.png" />
+<img width="500" alt="Screws Cut" src="13.png" />
+
+With this, the final model of the motor mount was completed. 
+
+<img width="500" alt="Final Model" src="14.png" />
 
 ## Communicate
 
