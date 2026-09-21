@@ -14,7 +14,7 @@ The motor mount being designed had various constraints. The mount is designed to
 
 The project allowed for multiple materials to be used, including ABS, PETG, and PLA, with their properties being linked to the project page. The design contains two features, with one feature being attached to a wall and another attached to the first feature in the form of a cantilever beam, supporting the motor. Both features were to be designed with a maximum deflection of 0.3 mm at the free end with a safety factor of 3 that accounted for the holes for the screws and motor shaft. With the motor mounted, a 300N force was noted to be applied to the shaft perpendicularly. For the calculations, the weight of the motor could be ignored. Deflection of the feature attached to the wall was assumed to be zero, as well as the derivative with respect to x. 
 
->Design Inspriations
+>Design Inspirations
 
 <img width="500" alt="Given Areas" src="Givens.jpeg" />
 
