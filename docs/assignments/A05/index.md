@@ -56,5 +56,14 @@ The stiffness design carried over many of the same values and mechanics of the s
 <img width="500" alt="Feature 4 Stiffness" src="Stiff 4.jpeg" />
 <img width="500" alt="Feature 5 Stiffness" src="Stiff 5.jpeg" />
 
+>Creating Multiview Sketches
+
+With both the stress and stiffness designs fully defined, I could now create Multiview sketches of each to lay the dimensions and design out in a more digestible fashion. For both sketches, I created a front, right, and top view, with an isometric sketch to make the design easier to understand. For the moment, I left it dimensionless and created two copies in order to serve as a baseline for both sketches. I then laid out each of the dimensions on the view that they fit the best in, ensuring that what they were referring to was visible in the view they were populated in. With the dimensions set for each, I then referenced the dimensions to scale the design in a way that was more true to the given dimensions, allowing the difference between both designs to be more easily noticeable. 
+
+<img width="500" alt="Stress Sketch" src="Stress Sketch.jpeg" />
+<img width="500" alt="Stiffness Sketch" src="Stiff Sketch.jpeg" />
+
+Laying both sketches side by side make it much more simple to compare how the designs differ. The most noticeable difference is in the final feature, where the height of the hooks are noticeably larger, possibly meaning that the stiffness required there is much higher relative to the stress it is undergoing, making it thicker in the stiffness design to account for that. 
+
 ## Communicate
 
