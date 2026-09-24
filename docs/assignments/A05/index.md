@@ -24,9 +24,13 @@ By keeping the design symmetrical, it allows the sides and hooks of the bracket 
 
 ## Decide
 
+>Finalizing Specifications
+
 My first decision was to choose the specifications I was given a choice on. Firstly, I decided to use a force of 600 lbF to create a design that would sit in the middle ground of the force range. However, I went a bit lighter in order to have a slimmer and more compact design after calculations, as a smaller load would not demand features that were very bulky in size. Secondly, I decided to use 6061 T6 aluminum to incorporate a compact design with a light material. The material properties of this aluminum were easily locatable online. 
 
 <img width="500" alt="Aluminum Properties" src="Al Props.png" />
+
+>Solving the Stress-Oriented Design
 
 With these decisions made, it was now time to begin calculations with stress in mind. Taking the maximum yield strength from the property table and the other given and decided specifications, I started with the cantilever beam holding the strap and planned to work my way up the design. Firstly, I picked the length of the beam to be 2 inches as a starting point for the rest of the design, giving more than enough space for a strap to be fully supported by the beam. I began by writing the knowns, unknowns, and assumptions made for the calculation. Then, I drew a free body diagram which showcased the load (blue) and subsequent reaction forces (red). In this particular feature, it is possible to show the load of the strap as a distributed load due to its characteristics. Using stress relations, I calculated the minimum diameter needed to fall under the stress limit given the safety factor. 
 
@@ -42,6 +46,15 @@ For the next three features, I used bending beam equations, choosing a base or w
 <img width="500" alt="Feature 4 Stress" src="Stress 4.jpeg" />
 <img width="500" alt="Feature 5 Stress" src="Stress 5.jpeg" />
 
+>Solving the Stiffness-Oriented Design
+
+The stiffness design carried over many of the same values and mechanics of the stress design. For each feature, I was able to carry over the specifications, chosen dimensions, assumptions, and free body diagrams, making this step a much faster process. This time, I instead used the aluminum's Young's Modulus value over the yield strength to solve the equations. For each of these calculations I used relations with the given deflection and moment of inertia to solve for the needed dimensions. In this step, bending did not require extra calculations for moment, which also sped up the process of solving for the dimensions. 
+
+<img width="500" alt="Feature 1 Stiffness" src="Stiff 1.jpeg" />
+<img width="500" alt="Feature 2 Stiffness" src="Stiff 2.jpeg" />
+<img width="500" alt="Feature 3 Stiffness" src="Stiff 3.jpeg" />
+<img width="500" alt="Feature 4 Stiffness" src="Stiff 4.jpeg" />
+<img width="500" alt="Feature 5 Stiffness" src="Stiff 5.jpeg" />
 
 ## Communicate
 
