@@ -24,6 +24,24 @@ By keeping the design symmetrical, it allows the sides and hooks of the bracket 
 
 ## Decide
 
+My first decision was to choose the specifications I was given a choice on. Firstly, I decided to use a force of 600 lbF to create a design that would sit in the middle ground of the force range. However, I went a bit lighter in order to have a slimmer and more compact design after calculations, as a smaller load would not demand features that were very bulky in size. Secondly, I decided to use 6061 T6 aluminum to incorporate a compact design with a light material. The material properties of this aluminum were easily locatable online. 
+
+<img width="500" alt="Aluminum Properties" src="Al Props.png" />
+
+With these decisions made, it was now time to begin calculations with stress in mind. Taking the maximum yield strength from the property table and the other given and decided specifications, I started with the cantilever beam holding the strap and planned to work my way up the design. Firstly, I picked the length of the beam to be 2 inches as a starting point for the rest of the design, giving more than enough space for a strap to be fully supported by the beam. I began by writing the knowns, unknowns, and assumptions made for the calculation. Then, I drew a free body diagram which showcased the load (blue) and subsequent reaction forces (red). In this particular feature, it is possible to show the load of the strap as a distributed load due to its characteristics. Using stress relations, I calculated the minimum diameter needed to fall under the stress limit given the safety factor. 
+
+<img width="500" alt="Feature 1 Stress" src="Stress 1.jpeg" />
+
+The reaction forces of the bar then were translated into the second feature; the connecting rod. For the rest of the features, I continued to right knowns, unknowns, and assumptions while also creating a free body diagram with loads determined by the previous features reactions and the reactions of the current feature .I decided to give its width the same dimension as the diameter of the bar in order for them to connect to each other smoothly when assembled. I then utilized tensile stress equations to determine the minimum area, connecting that with the width to determine the base dimension. 
+
+<img width="500" alt="Feature 2 Stress" src="Stress 2.jpeg" />
+
+For the next three features, I used bending beam equations, choosing a base or width based on the dimensions of the rigid body to fully define the feature for calculations. For each of these chosen dimensions, I decided to add .0005 inches to the dimensions of the rigid body in order to create a clearance fit. The clearance fit allows the bracket to fit smoothly onto the rigid body, ensuring that the bracket is not to tight to where it cannot slide freely on the rigid body. I also picked a length of 2 inches for each of these features to align them with the length of the bar supporting the strap. This allows the design to remain balanced in its weight by centering its weight, allowing the bracket to slide more easily and be more stable. With this completed, I utilized the bending stress equations to find the final needed dimension for each feature, completing the design of the stress-oriented bracket. 
+
+<img width="500" alt="Feature 3 Stress" src="Stress 3.jpeg" />
+<img width="500" alt="Feature 4 Stress" src="Stress 4.jpeg" />
+<img width="500" alt="Feature 5 Stress" src="Stress 5.jpeg" />
+
 
 ## Communicate
 
