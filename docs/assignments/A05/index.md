@@ -63,7 +63,22 @@ With both the stress and stiffness designs fully defined, I could now create Mul
 <img width="500" alt="Stress Sketch" src="Stress Sketch.jpeg" />
 <img width="500" alt="Stiffness Sketch" src="Stiff Sketch.jpeg" />
 
-Laying both sketches side by side make it much more simple to compare how the designs differ. The most noticeable difference is in the final feature, where the height of the hooks are noticeably larger, possibly meaning that the stiffness required there is much higher relative to the stress it is undergoing, making it thicker in the stiffness design to account for that. 
+Laying both sketches side by side make it much more simple to compare how the designs differ.
 
-## Communicate
+## Communicate- Lessons Learned
+
+>Comparing the Design
+
+As an example, I compared the hook feature on both designs to show how they differ. Here, the most obvious signs of the differences between the designs are found, with stiffness governing the dimensions needed for the feature. They both shared the same chosen base dimension, but while the stress design only needed a height of 0.4243 inches, the stiffness design needed 1.1539 inches, a difference of .7296 inches. This height difference is noticeable, possibly pointing at the stiffness required being much higher relative to the stress the feature is under. Under this assumptions, the extra thickness in the stiffness designs allows this to be accounted for.
+
+>Error Propagation
+
+When solving the sides of the bracket during the stress calculations, I realized that I was accidentally continuing to use 2F as my load rather than F, leading to the incorrect calculation. Fortunately, I caught this mistake early, but if I had not, it would have led to the same mistake for the final feature and for the same calculations for the stiffness design. What allowed me to catch this mistake was checking my work after finishing, validating the free body diagram's load and reaction. By doing this, I noticed that I was no longer dealing with one single reaction, but two that went to both sides of the bracket, splitting the force. This is a great example of why it is important to check work throughout your calculations. 
+
+>Assumptions Sensitivity
+
+One choice that I made early on in the design process was my material. By picking aluminum, I set my design to a set yield strength and Young's Modulus that played a role in each of the calculations I made for the dimensions. If I were to choose a different material, these dimensions would have changed drastically, becoming more compact or bulkier depending on the material I switched to. For example, if I had instead chose steel for my design, I would have had much larger yield strength and Young's Modulus, leading the much smaller dimensions as less material would be needed to meet the stress and stiffness needs of the design. 
+
+This assignment took me approximately 5 hours to complete. 
+
 
