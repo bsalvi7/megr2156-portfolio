@@ -121,3 +121,9 @@ To translate this equation into CAD software, I set the constant values needed t
 For feature 4's area of contact with the T-beam, I applied a tighter tolerance of +.0005 inches, while for feature 5's area of contact, I only applied a tolerance of -.02 inches. Feature 4's surface is a mating surface that ensures a proper sliding fit based on its measurement, making it critical for the fitment of the bracket onto the T-beam. This makes a tighter tolerance a more appropriate choice, as it ensures that the measurement is precise enough to create a sliding fit. On the other hand, feature 5's area of contact is not a mating surface, and only supports the bracket rather than having an effect on the bracket's fitment to the T-beam. This makes a more lenient tolerance appropriate, as it does not have any effect on the final fitment of the bracket on the T-beam while also lowering costs by not needing a highly accurate manufacturing technique. 
 
 This assignment took me about 4 hours in total. 
+
+CAD Parts and Drawing can be downloaded here:
+
+<a href="A6.zip" download>
+  Bracket Part and Drawing (.zip)
+</a>
