@@ -24,7 +24,7 @@ I then went into the document properties of the part and ensured my units were s
 
 ## Decide
 
-It was now time to create the model. Features 1-3 were simple, involving sketching and dimensioning their cross-section using the parametric values I created. I then used the extrude tool to extrude them to the desired length using the parametric values. For Features 1 and 2, I used the back plane of the cantilever beam to create the sketches to ensure they were aligned and defined properly without the need to create relations manually. 
+It was now time to create the model. Features 1-3 were simple, involving sketching and dimensioning their cross-section using the parametric values I created. I then used the extrude tool to extrude them to the desired length using the parametric values. For features 1 and 2, I used the back plane of the cantilever beam to create the sketches to ensure they were aligned and defined properly without the need to create relations manually. 
 
 <img width="500" alt="Feature 1 Sketch" src="4.png" />
 
@@ -38,7 +38,7 @@ It was now time to create the model. Features 1-3 were simple, involving sketchi
 
 <img width="500" alt="Feature 3 Extrude" src="9.png" />
 
-
+Features 4 and 5 took a few extra steps to create. I started with feature 4, creating the cross-section sketch using the back plane and extruding it to the correct length. I aligned it with the corner of feature 3 to ensure that the dimensioning was accurate with the placement of the feature. To fill in the joint between features 2 and 3, I added an extra sketch and extrude, merging the result to attach both features. 
 
 <img width="500" alt="Specs" src="10.png" />
 
@@ -48,9 +48,13 @@ It was now time to create the model. Features 1-3 were simple, involving sketchi
 
 <img width="500" alt="Specs" src="13.png" />
 
+This feature as well as feature 5 are symmetrical on both sides of the bracket. Using this relation, I was able to translate the features I created to the other side of the bracket using the mirror tool on both sketches. I drew a centerline in the middle of the bracket and used the line to mirror the sketches without the need for extra relations. Once I saved the sketch, it automatically extruded the new sketch and created a perfectly mirrored feature. 
+
 <img width="500" alt="Specs" src="14.png" />
 
 <img width="500" alt="Specs" src="15.png" />
+
+I then repeated this process for feature 5, using the same method to fill the space at the joint and mirror both features. 
 
 <img width="500" alt="Specs" src="16.png" />
 
@@ -64,7 +68,11 @@ It was now time to create the model. Features 1-3 were simple, involving sketchi
 
 <img width="500" alt="Specs" src="21.png" />
 
+After completing feature 5, the part was complete and ready to be translated into a drawing. 
+
 <img width="500" alt="Specs" src="22.png" />
+
+
 
 <img width="500" alt="Specs" src="23.png" />
 
