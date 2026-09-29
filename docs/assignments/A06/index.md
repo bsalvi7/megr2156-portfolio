@@ -110,8 +110,14 @@ With this, the drawing was now compelete.
 
 <img width="500" alt="Specs" src="30.png" />
 ## Communicate
- 
-Tighter on side of bracket hook parallel to the base of the rigid T beam, as it ensures the bracket is able to fix to the T beam tightly without extra side to side movement that could misalign the strap or create forces that are not symmetrical to each side of the rigid T beam. This could create problems as the design was created with symmetry in mind. 
+>Reflections
 
+For feature 3, I used the stiffness value to drive the value of the height of the feature in my model. This calculation used the displacement equation rearranged to solve for height h:
 
-Looser on side of bracket hook parallel to "b" on the rigid T beam, as it does not need to be right up against the side of the T beam to support the forces on the strap.
+<img width="500" alt="Stress Dimensions" src="IMG_0162.jpeg" />
+
+To translate this equation into CAD software, I set the constant values needed to solve the equation, including SF, F, L, E, Displacement, and b3 (a+2b of the rigid T beam). I then rewrote the equation within the Equation tool using these set variables, providing an answer that corresponded with my previous hand calculation. Although I did not make a mistake that warranted changing this or other values which connected to the equation, the importance of doing this is that the model will respond appropriately in the case of a value needing to be changed. This bypasses a complete rebuild of one or more features of the part and makes the process much more efficient. 
+
+For feature 4's area of contact with the T-beam, I applied a tighter tolerance of +.0005 inches, while for feature 5's area of contact, I only applied a tolerance of -.02 inches. Feature 4's surface is a mating surface that ensures a proper sliding fit based on its measurement, making it critical for the fitment of the bracket onto the T-beam. This makes a tighter tolerance a more appropriate choice, as it ensures that the measurement is precise enough to create a sliding fit. On the other hand, feature 5's area of contact is not a mating surface, and only supports the bracket rather than having an effect on the bracket's fitment to the T-beam. This makes a more lenient tolerance appropriate, as it does not have any effect on the final fitment of the bracket on the T-beam while also lowering costs by not needing a highly accurate manufacturing technique. 
+
+This assignment took me about 4 hours in total. 
