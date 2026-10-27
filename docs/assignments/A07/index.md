@@ -94,3 +94,10 @@ If I had more time, my next step would have been to create a new design that use
 
 In total, this project took me about 4 hours to complete. 
 
+CAD Part can be downloaded here:
+
+<a href="A6 Bracket Edit.SLDPRT" download>
+  Optimized Bracket (.STL)
+</a>
+
+Note: The zip file with my FEA for each design is too large to include in Github. Please email me at bsalvi@charlotte.edu if these are needed. 
