@@ -86,4 +86,10 @@ With all of the values acquired, I completed my table to show mostly stable impr
 <img width="500" alt="Stiffness Dimensions" src="table2.png" />
 
 ## Communicate
+>Lessons Learned
+This project taught me how to utilize data gained from FEA to create more optimized models that better achieve the defined goals of a design. Although my design was not reaching the goals I thought it would based on my calculations, I still was able to learn how to create geometric improvements that lessened the poor performance of my design. Beyond this, I also was able to gain more experience with setting up Finite Element Analysis, setting up constraints, loadings, and meshes. In particular, I learned new tools such as the unconstrained bodies tool and mesh convergence method to determine whether my analysis is providing accurate information. I also learned more ways to apply loads, such as using a bearing force.
+
+If I had more time, my next step would have been to create a new design that used fillets to create a smoother transition between the ribs, element B, and cylinder to reduce the stress concentrations in that area. I also may have played with the geometry of the ribs provide element B with even more structure. 
+
+In total, this project took me about 4 hours to complete. 
 
