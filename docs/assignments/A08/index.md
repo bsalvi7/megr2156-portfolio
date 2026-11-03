@@ -29,19 +29,35 @@ One thing to note is that in order to determine the bending stress of the shaft,
 Once the stress calculations were complete, I moved forward to determining the needed values of the journal bearings. Once the knowns and unknowns were listed, calculated the radial force using the previously calculated tangential force. I utilized the same journal bearing setup noted before and assumed a journal bearing length of 0.25 inches for the input and output bearings. With this setup, I calculated P and V for the input and output shaft. Using these values, I determined that Porous Bronze would be the best material to use for my journal bearings, as it meant the needed specifications while also being easy to find in many sizes and competitively cheap relative to other materials. 
 
 <img width="500" alt="Journal Bearing Calculations" src="Journal Bearing.jpeg" />
+<img width="500" alt="Materials Table" src="4.png" />
 
 I then used Bernie's equation from the Machinery's Handbook to determine the minimum thickness needed for the input and output journal bearings. Both of these came to very small thicknesses, leaving a wide range of bronze journal bearing options available. When taking into account the length I previously specified and shaft diameters, I decided to go with 6391K111 for the input bearings and 6391K131 for the output bearings. 
 
 <img width="500" alt="Journal Bearing Thickness Calculations" src="Journal Bearing Thickness.jpeg" />
-<img width="500" alt="Input Journal Bearing" src="jb1.jpeg" />
-<img width="500" alt="Output Journal Bearing" src="jb2.jpeg" />
+<img width="500" alt="Input Journal Bearing" src="jb1.png" />
+<img width="500" alt="Output Journal Bearing" src="jb2.png" />
 
 >Housing Sketch
 
-With each of the components selected 
+With each of the components selected, I utilized the provided dimensions to create a two piece housing design that fully encompassed the gears, bearings, and shafts. I decided to create a lip around the ends of both halves of the gearbox housing to make room for bolt holes in order to secure both halves together for efficient assembly and disassembly. 
+
+<img width="500" alt="Gearbox Sketch" src="Gearbox Sketch.jpeg" />
 
 ## Decide
 
+>Housing CAD Modeling
+
+It was now time to create the gearbox assembly, beginning by bringing the gearbox housing halves in as individual models. I began by setting up my units to IPS and parametric design structure using the equations tool. These critical dimensions will be used in each of the models with the same equations tool setup.
+
+<img width="500" alt="Units" src="6.png" />
+<img width="500" alt="Equations" src="6-1.png" />
+
+I started by modeling the front view of the top section of the housing, beginning with a rectangle. I then used the 3-point circle tool to round off the end of the housing, trimming the ends to make it one flush shape that I could then dimension. I then extruded this to the appropriate length to create the main body of the top housing.
+
+<img width="500" alt="Rectangle" src="7.png" />
+<img width="500" alt="Circle" src="7-1.png" />
+<img width="500" alt="Dimensions Top Housing" src="9-1.png" />
+<img width="500" alt="Extruded Top Housing" src="9-2.png" />
 
 ## Communicate
 
