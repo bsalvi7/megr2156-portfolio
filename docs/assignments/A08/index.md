@@ -15,15 +15,30 @@ This project had set values to base the calculations off of to fully define the 
 
 Assumptions are also provided that are important in the calculations. This includes assuming adequate shaft strength, ideal gear train, and negligible radial force from the gear train.
 
->Stress Calculations
+>Shaft Stress Calculations
 
 With the given specifications, we begin by defining the specifications of the rest of the design. Using gear ratio relations, I determined the input speed and torque. With these values, it was time to confirm that the shafts are strong enough to withstand the torque and forces involved. Assuming the material of the shafts to be 1117 Carbon Steel, commonly used for shafts, I utilized stress equations to determine that the diameter of the shaft would adequately withstand the stress.  I repeated these calculations for the output shaft. For both, I determined the diameter of both shafts to be more than enough to withstand the torque and forces given a safety factor of 2. 
+
+One thing to note is that in order to determine the bending stress of the shaft, I assumed that the shaft is supported by two journal bearings on either side. This is typical of a normal gearbox design and will continue to be utilized throughout the design. 
 
 <img width="500" alt="Input Shaft Calculations" src="Input Shaft.jpeg" />
 <img width="500" alt="Output Shaft Calculations" src="Output Shaft.jpeg" />
 
+>Journal Bearing Calculations
+
+Once the stress calculations were complete, I moved forward to determining the needed values of the journal bearings. Once the knowns and unknowns were listed, calculated the radial force using the previously calculated tangential force. I utilized the same journal bearing setup noted before and assumed a journal bearing length of 0.25 inches for the input and output bearings. With this setup, I calculated P and V for the input and output shaft. Using these values, I determined that Porous Bronze would be the best material to use for my journal bearings, as it meant the needed specifications while also being easy to find in many sizes and competitively cheap relative to other materials. 
+
 <img width="500" alt="Journal Bearing Calculations" src="Journal Bearing.jpeg" />
-<img width="500" alt="Journal Bearing Thickness Calculations" src="Output Shaft.jpeg" />
+
+I then used Bernie's equation from the Machinery's Handbook to determine the minimum thickness needed for the input and output journal bearings. Both of these came to very small thicknesses, leaving a wide range of bronze journal bearing options available. When taking into account the length I previously specified and shaft diameters, I decided to go with 6391K111 for the input bearings and 6391K131 for the output bearings. 
+
+<img width="500" alt="Journal Bearing Thickness Calculations" src="Journal Bearing Thickness.jpeg" />
+<img width="500" alt="Input Journal Bearing" src="jb1.jpeg" />
+<img width="500" alt="Output Journal Bearing" src="jb2.jpeg" />
+
+>Housing Sketch
+
+With each of the components selected 
 
 ## Decide
 
