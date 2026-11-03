@@ -125,8 +125,8 @@ In total, this assignment took me 5 hours to complete.
 
 CAD Assembly can be downloaded here:
 
-<a href="A8 Gearbox Assembly.SLDPRT" download>
-  Gearbox Assembly (.STL)
+<a href="A8 Gearbox Assembly.SLDASM" download>
+  Gearbox Assembly
 </a>
 
 
