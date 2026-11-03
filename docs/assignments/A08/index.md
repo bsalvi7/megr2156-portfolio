@@ -123,3 +123,10 @@ Throughout this project, I learned how important it is to verify the functionali
 
 In total, this assignment took me 5 hours to complete. 
 
+CAD Assembly can be downloaded here:
+
+<a href="A8 Gearbox Assembly.SLDPRT" download>
+  Gearbox Assembly (.STL)
+</a>
+
+
