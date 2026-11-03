@@ -47,7 +47,7 @@ With each of the components selected, I utilized the provided dimensions to crea
 
 >Housing CAD Modeling
 
-It was now time to create the gearbox assembly, beginning by bringing the gearbox housing halves in as individual models. I began by setting up my units to IPS and parametric design structure using the equations tool. These critical dimensions will be used in each of the models with the same equations tool setup.
+It was now time to create the gearbox assembly, beginning by bringing the gearbox housing halves in as individual models. I began by setting up my units to IPS and parametric design structure using the equations tool. These critical dimensions will be used in each of the models with the same equations tool setup. I also set the material to 6061-T6 aluminum to keep the design lightweight. 
 
 <img width="500" alt="Units" src="6.png" />
 <img width="500" alt="Equations" src="6-1.png" />
@@ -59,5 +59,63 @@ I started by modeling the front view of the top section of the housing, beginnin
 <img width="500" alt="Dimensions Top Housing" src="9-1.png" />
 <img width="500" alt="Extruded Top Housing" src="9-2.png" />
 
+I then created the extrusion where the journal bearing will be seated, mirroring it across utilizing a plane at the midpoint of the main extrusion done previously. 
+
+<img width="500" alt="Bearing Sketch" src="10-1.png" />
+<img width="500" alt="Bearing Extrusion" src="10-2.png" />
+<img width="500" alt="Mirror Plane" src="11.png" />
+<img width="500" alt="Mirrored Bearing" src="11-1.png" />
+
+With the main shape made, it was important to ensure the inner dimensions remained intact while also hollowing out the housing to make room for the gearbox components. To do this, I used the shell tool with the outside shell box checked to hollow out the model with a specified thickness of 0.05 inches. 
+
+<img width="500" alt="Shell" src="13.png" />
+
+I then made extrusion cuts for the shaft hole and hole at the bottom that will be needed to connect the input and output gears together. 
+
+<img width="500" alt="Shaft Sketch" src="12.png" />
+<img width="500" alt="Shaft Cut" src="12-1.png" />
+<img width="500" alt="Bottom Sketch" src="14.png" />
+<img width="500" alt="Bottom Cut" src="14-1.png" />
+
+Now, I created the lip to connect both halves of the gearbox housing, extruding the lip and cutting four holes in either corner for bolts to be run through. I created one hole in one corner, and then used the mirror tool in combination with a referenced centerline to efficiently make the other three holes. 
+
+<img width="500" alt="Lip Sketch" src="15.png" />
+<img width="500" alt="Lip Extrude" src="15-1.png" />
+<img width="500" alt="Hole Sketch" src="16.png" />
+<img width="500" alt="Hole Mirror" src="16-1.png" />
+<img width="500" alt="Hole Cut" src="16-2.png" />
+
+This completed the design of the top housing. I used the exact same process to then create the bottom housing using the dimensions I noted within my sketch. 
+
+<img width="500" alt="Top Housing Iso View" src="17.png" />
+<img width="500" alt="Bottom Housing Iso View" src="19.png" />
+
+> Shaft Models
+
+With the housing complete, I now created the simple models of both shafts. I used the same model setup with the change of material to Plain Carbon Steel which shared similar properties to the Carbon Steel I used in my calculations. I then created the sketches and extrusions of each shaft in separate models.
+
+<img width="500" alt="Plain Carbon Steel" src="20.png" />
+<img width="500" alt="Input Shaft Sketch" src="21-1.png" />
+<img width="500" alt="Output Shaft Extrude" src="21-2.png" />
+<img width="500" alt="Output Shaft" src="22.png" />
+
+> Assembly
+
+With the housing and shaft modeled, I then downloaded each of the gear and journal bearing part models from the McMaster website. I then created an assembly file to fit each of the components together. I began with the top housing, mating each of the input journal bearings on either side of the housing. I then mated the input shaft and gear together, locking them together to accurately represent the press fit. I then aligned the shaft with the journal bearings. To define the location of the gear, I used the distance mate against the back side of the housing to make sure it is not contacting anything other than the shaft while also making its location easily repeatable for the other gear. 
+
+<img width="500" alt="Bearing Mates" src="23.png" />
+<img width="500" alt="Shaft-Gear" src="24.png" />
+<img width="500" alt="Shaft-Bearing" src="25.png" />
+<img width="500" alt="Lock Shaft to Gear" src="26.png" />
+<img width="500" alt="Set Gear Distance" src="27.png" />
+
+I then setup the bottom half of the gearbox in the exact same manner. To connect both halves, I mated each of the bolt holes together to perfectly align both halves together. To complete the assembly, I then setup a gear mechanical mate with the specified tooth counts to ensure the gears behave as they should when in contact with one another. 
+
+<img width="500" alt="Bottom Half" src="28.png" />
+<img width="500" alt="Aligning Halves" src="29.png" />
+<img width="500" alt="Complete Assembly" src="33.png" />
+
 ## Communicate
+
+
 
