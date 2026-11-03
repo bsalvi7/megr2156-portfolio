@@ -22,6 +22,9 @@ With the given specifications, we begin by defining the specifications of the re
 <img width="500" alt="Input Shaft Calculations" src="Input Shaft.jpeg" />
 <img width="500" alt="Output Shaft Calculations" src="Output Shaft.jpeg" />
 
+<img width="500" alt="Journal Bearing Calculations" src="Journal Bearing.jpeg" />
+<img width="500" alt="Journal Bearing Thickness Calculations" src="Output Shaft.jpeg" />
+
 ## Decide
 
 
