@@ -117,5 +117,9 @@ I then setup the bottom half of the gearbox in the exact same manner. To connect
 
 ## Communicate
 
+>Lessons Learned
 
+Throughout this project, I learned how important it is to verify the functionality of something before modeling it. One mistake that I made when creating the model was beginning the model prior to creating the sketch for the housing. This made my model go through a lot of trial and error, which led to this process of my project taking much longer than I expected. If I instead ensured my sketch was fully correct before making the model, this process of creating the model of the housing would have been far easier. Another lesson that I learned was how useful setting preliminary values can be. Much of this assignments calculations required me to assume properties or dimensions to get values, and I found that setting this value to be something realistic makes it much easier to create a design that is functional from the beginning and is only in need of optimization. In the future, I will use this to create designs that do not have the issue of not working, but instead of performance, which is much easier to refine. 
+
+In total, this assignment took me 5 hours to complete. 
 
