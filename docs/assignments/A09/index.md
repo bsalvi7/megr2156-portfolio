@@ -56,3 +56,8 @@ To find the minimum area of each plate, I used the tensile stress equation, find
 
 ## Communicate
 
+>Lessons Learned
+
+One important lesson that I utilized more in this project was the importance of the incorporation of safety factors in my design. By setting a universal factor of safety, I was able to create a design that I knew would support the necessary forces while also providing a way to ensure that my design would be functional as seen by the final bending calculations for the frame. I also learned how to tie belts, pulleys, and shafts together using forces, torque and stress which I can utilize to create more pulley designs in the future. I also was able to get more practice selecting parts based on the geometry I calculated, modifying my design when necessary based on part availability.
+
+Overall, this assignment took me about 3 hours to complete. 
