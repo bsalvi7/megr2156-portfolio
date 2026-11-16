@@ -17,7 +17,6 @@ As for the key constraints, an axial load capacity of 2 kN for the system is pro
 In our case, we decided to go with the minimum leadscrew length of 18 inches due to the availability of sizes found on McMaster. We also chose 1018 Low Carbon Steel as the leadscrew material for our preliminary calculations, with a yield strength of 370 MPa and shear strength of 300 MPa.
 
 ## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
 > Combined: Leadscrew Calculations
 
