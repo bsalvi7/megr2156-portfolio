@@ -10,6 +10,8 @@ The objective of this project was to design a Tensile tester with a leadscrew sy
 
 In this project, we were given a concept of a Tensile Tester we were able to use to understand the design of the machine. The design includes two lead screws connected via a crosshead, with two motors driving the two lead screws. The crosshead was supported by nut flanges, with the entire system surrounded by a box-like frame. 
 
+<img width="500" alt="Tensile Tester" src="TensileTesterEx.png" />
+
 As for the key constraints, an axial load capacity of 2 kN for the system is provided, not just for each leadscrew. Also, a speed range of 1-50 mm/min was given with a minimum leadscrew length of 18 inches. Finally, a safety factor of 4 was provided. 
 
 In our case, we decided to go with the minimum leadscrew length of 18 inches due to the availability of sizes found on McMaster. We also chose 1018 Low Carbon Steel as the leadscrew material for our preliminary calculations, with a yield strength of 370 MPa and shear strength of 300 MPa.
