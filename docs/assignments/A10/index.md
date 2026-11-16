@@ -6,6 +6,11 @@ The objective of this project was to design a Tensile tester with a leadscrew sy
 
 ## Analyze
 
+>Given Constraints
+
+In this project, we were given a concept of a Tensile Tester we were able to use to understand the design of the machine. The design includes two lead screws connected via a crosshead, with two motors driving the two lead screws. The crosshead was supported by nut flanges, with the entire system surrounded by a box-like frame. 
+
+
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
