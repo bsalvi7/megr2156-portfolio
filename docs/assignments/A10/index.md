@@ -38,7 +38,7 @@ Based on these values, we pinpointed leadscrew model 93255A233 on McMaster as th
 
 For the lead screw system, we selected the 3/4-5 ACME bronze flange nut from McMaster-Carr (Part #95120A123) to go with our 18-inch lead screws. The nut is made from 932 bearing bronze and has an engagement length of 1.5 inches, giving us about 7.5 engaged threads. Since our final design uses two lead screws to move the crosshead, we assumed the 2 KN load would be split evenly between the two flange nuts, making each nut carry 1000 N. This gives us an estimated force of 133.33 N per thread for each screw. We also used a bronze yield strength of 14,000 psi and a factor of safety of 4, giving us an allowable bending stress of 3,500 psi. We created an FBD showing both lead screws, flange nuts, and the crosshead to represent how the load is transferred through the system. The remaining step is to calculate the actual bending stress in the internal threads and verify that the selected flange nuts meet the required safety factor.
 
-<img width="500" alt="Nut Calculations" src="NutCalc.jpeg" />
+<img width="500" alt="Nut Calculations" src="NutCalc.jpg" />
 
 > Bruno Salvi: Crosshead Calculations
 
@@ -56,6 +56,34 @@ To fully define the crosshead, I then drew multiview drawing with the given dime
 
 <img width="500" alt="Crosshead Drawing" src="IMG_0188.jpeg" />
 
+>Brandon Cogill: Tabulating Costs
+
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+| :---: | :---: | :--- | :---: | :---: | :--- |
+| 1 | 2 | 3/4"-5, Zinc-Plated Carbon Steel Acme Lead Screw | $35.49 | **$70.98** | https://www.mcmaster.com/93255A233/ |
+| 2 | 2 | 3/4"-5, 932 Bearing Bronze Acme Flange Nut | $160.09 | **$320.18** | https://www.mcmaster.com/95120A123/ |
+| 3 | 1 | Rectangle, 40 Series, T-Slot Framing System - 804T48 - Grainger | $245.87 | **$245.87** | https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T48 |
+| **TOTAL MATERIAL COST** | | | | **$637.03** | |
+
+>Jason Key: Parametric Modeling
+
+For the 3D modeling, I downloaded links for the frame, flange nuts, and leadscrews. Then, using our crosshead design dimensions, I created our crosshead in SolidWorks. For the frame, I had to find a generic frame type from Grainger and dimensions that would hold the width and length of the crosshead as well as the length of the leadscrews. With these in mind, I made the length of the bottom of the frame to be 1/3 of the vertical length of the frame design. Finally, I mated all necessary parts, and the 3D model was complete.
+
+  ![A10 Cross Head](A10%20Crosshead.png)
+  
+  ![A10 Cross Head](A10%20Crosshead%20Holes.png)
+  
+  ![A10 Cross Head](A10%20Crosshead%20Flange%20Holes.png)
+  
+  ![A10 Frame](A10%20Frame%20Design.png)
+  
+  ![A10 Frame](A10%20Frame%20Design%202.png)
+  
+  ![A10 Model](A10%203D%20Model.png)
+
+Download the 3D model using this link.
+
+[Download my SolidWorks Bracket File](Assem1.SLDASM)
 
 ## Communicate
 
