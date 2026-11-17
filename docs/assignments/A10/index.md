@@ -97,4 +97,4 @@ By doing this project, we learned how beneficial it can be to work on larger-sca
 
 Beyond working with a team, we also gained extra practice building components based on the designs of other components it is related to to create a functional system. This component integration is extremely important, as in the real world many of the components an engineer would be designing will be a part of a much larger system that must be accounted for. 
 
-Overall, this assignment took about 2 hours for each group member. 
+Overall, this assignment took about 3 hours to complete my portion.
