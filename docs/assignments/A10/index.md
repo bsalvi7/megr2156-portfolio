@@ -78,7 +78,11 @@ For the 3D modeling, I downloaded links for the frame, flange nuts, and leadscre
   ![A10 Frame](A10%20Frame%20Design.png)
   
   ![A10 Frame](A10%20Frame%20Design%202.png)
+
+  ![A10 Leadscrew](A10%20Leadscrew.png)
   
+  ![A10 Flange Nut](A10%20Flange%20Nut.png)
+
   ![A10 Model](A10%203D%20Model.png)
 
 Download the 3D model using this link.
@@ -87,3 +91,10 @@ Download the 3D model using this link.
 
 ## Communicate
 
+>Lessons Learned
+
+By doing this project, we learned how beneficial it can be to work on larger-scale projects with other team members. Not only is one able to delegate work and get things done more efficiently, but more specifically one can play to one another's strengths to get a higher quality final product than what could normally be achieved alone. We also learned how important communication is to unlock these benefits, as by having a team that was constantly communicating and ensuring everyone was on the same page, we were able to help one another out when we were stuck and get through problems together more quickly and with more certainty.
+
+Beyond working with a team, we also gained extra practice building components based on the designs of other components it is related to to create a functional system. This component integration is extremely important, as in the real world many of the components an engineer would be designing will be a part of a much larger system that must be accounted for. 
+
+Overall, this assignment took about 2 hours for each group member. 
