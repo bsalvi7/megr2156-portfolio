@@ -34,6 +34,12 @@ Finally, we determined the max torque needed to provide the 2 kN tension to the 
 
 Based on these values, we pinpointed leadscrew model 93255A233 on McMaster as the ideal choice, meeting the length of 18 inches with a diameter of 0.75 inches, which is well above the minimum needed for safe use. It also is made of 1018 Low Carbon Steel, which was the material assumed in our calculations.
 
+> Brandon Cogill: Flange Nut Calculations
+
+For the lead screw system, we selected the 3/4-5 ACME bronze flange nut from McMaster-Carr (Part #95120A123) to go with our 18-inch lead screws. The nut is made from 932 bearing bronze and has an engagement length of 1.5 inches, giving us about 7.5 engaged threads. Since our final design uses two lead screws to move the crosshead, we assumed the 2 KN load would be split evenly between the two flange nuts, making each nut carry 1000 N. This gives us an estimated force of 133.33 N per thread for each screw. We also used a bronze yield strength of 14,000 psi and a factor of safety of 4, giving us an allowable bending stress of 3,500 psi. We created an FBD showing both lead screws, flange nuts, and the crosshead to represent how the load is transferred through the system. The remaining step is to calculate the actual bending stress in the internal threads and verify that the selected flange nuts meet the required safety factor.
+
+<img width="500" alt="Nut Calculations" src="NutCalc.jpeg" />
+
 > Bruno Salvi: Crosshead Calculations
 
 Utilizing the previous flange calculations, it was time to calculate the crosshead dimensions. Using a flange diameter of 2 inches, I set the base dimension to 2.5 inches to allow the flange to sit flush on the crosshead without any material hanging off. I then set the lead screw span length to 6 inches to fully define the geometry to find the crosshead thickness needed. Finally, I decided to make my crosshead out of 6061-T6 aluminum to keep the design lightweight. 
