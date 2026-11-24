@@ -62,13 +62,12 @@ Although the design is more than strong enough to withstand the loads and torque
 
 CAD Parts can be downloaded here. Note that I did not include the simulation data as the file size would be too large.
 
-<a href="A8 Gearbox Assembly.SLDASM" download>
+<a href="Top Frame.zip" download>
   Top Frame
 </a>
 
-<a href="A8 Gearbox Assembly.SLDASM" download>
+<a href="Side Frame.zip" download>
   Side Frame
 </a>
-
 
 ## Communicate
