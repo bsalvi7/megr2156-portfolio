@@ -27,6 +27,14 @@ I then applied the force of both lead screws on each region, setting each region
 
 I then ran the study with a coarse mesh, noting the maximum Von Mises stress, maximum displacement, and minimum factor of safety values. To ensure convergence, I ran two more iterations with increasingly finer mesh, marking the values of each. To ensure convergence, I found the percent difference of each value between iterations, ensuring that they remained within 7% for acceptable convergence. 
 
+<img width="500" alt="Top Von Mises" src="6.png" />
+
+<img width="500" alt="Top Displacement" src="7.png" />
+
+<img width="500" alt="Top FOS" src="8.png" />
+
+<img width="500" alt="Top Convergence" src="IMG_0190.jpeg" />
+
 The maximum Von Mises stress was 8.804*10^6 N/m^2, which was far below the yield stress of the 6063-T6 aluminum the frame is made of. The displacement was under 0.01993 mm, which is acceptable given the load. Finally, the factor of safety remained well over the benchmark of 4, sitting at 24.42.
 
 Although the design is more than strong enough to withstand the loads and torque being applied, some changes could be made to ensure consistent performance. Increasing fillet size will ensure that no stress concentrations are created in the frame. Furthermore, pocketing into the side frames can ensure that the top frame is well supported at both ends by supporting the bottom of the ends of the top frame. This will improve the performance even further. The critical location is in the middle of the beam, where it is furthest from the supports. It remains there with these changes as the load and torque remains the same. 
@@ -35,7 +43,19 @@ Although the design is more than strong enough to withstand the loads and torque
 
 It was now time to analyze the side frame to ensure it is strong enough. The side frame's region where loads where applied is simply at the top of the frame, meaning the split line tool is not required. Since I was only focusing on one side frame, I applied the force of one leadscrew downwards onto the top of the frame, set to 1 kN. I created an axis down the center of the side frame to reference the torque applied by the motors, setting to 3.3 N*m around the axis. Finally, I applied a fixed geometry constraint at the base of the side frame to act as the support of the ground. 
 
+<img width="500" alt="Side Torque" src="10.png" />
+
+<img width="500" alt="Side Fixed Geometry" src="11.png" />
+
 I then ran the study using the same iterative method, applying a coarse mesh and noting the values. I ran the next two iterations with finer meshes and used percent difference to ensure convergence. The maximum Von Mises stress was 1.933*10^6 N/m^2 which is even lower than the top frame. The maximum displacement is 0.03271 mm, which is acceptable, and the minimum factor of safety is 111.2, which is extremely high. 
+
+<img width="500" alt="Side Von Mises" src="12.png" />
+
+<img width="500" alt="Side Displacement" src="13.png" />
+
+<img width="500" alt="Side FOS" src="14.png" />
+
+<img width="500" alt="Side Convergence" src="IMG_0191.jpeg" />
 
 This design is very sound, but improvements could be made to it to minimize the twisting occurring. Ribbing could be incorporated into the beam to strengthen the beam against the twisting torque forces. This would be applied along the length of the beam as it is twisting laterally. The critical location would not change, as the most stress and displacement would still occur at the top of the beam where it is furthest from the fixed geometry.
 
