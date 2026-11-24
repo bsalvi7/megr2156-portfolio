@@ -134,3 +134,9 @@ Finally, a journal bearing mount is needed to connect the bottom of the leadscre
 **Total Cost of Project:** **$3,060.83**
 
 ## Communicate
+
+>Lessons Learned
+
+This project taught us how to apply analysis to motors, using calculations to select the best motor for our design and integrating it into the frame. This practice allows us to better understand how to incorporate components into a fully assembled design by accounting for the extra loads and support they bring in. We also gained more practice in selecting components that can be purchased based on our calculated requirements, which we did by selecting a motor that would best fit our tensile tester design. 
+
+For each of us, this part of the project took about 4 hours to complete. 
