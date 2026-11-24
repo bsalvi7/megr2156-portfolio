@@ -60,4 +60,15 @@ This design is very sound, but improvements could be made to it to minimize the 
 
 Although the design is more than strong enough to withstand the loads and torque being applied, some changes could be made to ensure consistent performance. Increasing fillet size will ensure that no stress concentrations are created in the frame. Furthermore, pocketing into the side frames can ensure that the top frame is well supported at both ends by supporting the bottom of the ends of the top frame. This will improve the performance even further. Even with these changes, the critical locations will remain as the mounting point of the motor bracket where the forces are stemming from.  
 
+CAD Parts can be downloaded here. Note that I did not include the simulation data as the file size would be too large.
+
+<a href="A8 Gearbox Assembly.SLDASM" download>
+  Top Frame
+</a>
+
+<a href="A8 Gearbox Assembly.SLDASM" download>
+  Side Frame
+</a>
+
+
 ## Communicate
