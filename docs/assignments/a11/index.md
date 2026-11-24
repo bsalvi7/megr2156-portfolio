@@ -92,13 +92,25 @@ Although the design is more than strong enough to withstand the loads and torque
 
 CAD Parts can be downloaded here. Note that I did not include the simulation data as the file size would be too large.
 
+Top Frame: 
 <a href="Top Frame.zip" download>
   Top Frame
 </a>
 
+Side Frame:
 <a href="Side Frame.zip" download>
   Side Frame
 </a>
+
+
+>Jason Key: Journal Bearing Mount
+
+Finally, a journal bearing mount is needed to connect the bottom of the leadscrews to the frame. Using the RC 3 fit table 8a in the Machinery's Handbook on page 654, I found the needed tolerance of the diameter to be +0.0005 / -0.0000 inches. Using a Free Body Diagram, a thickness minimum was found to be 1.65 mm but to be safe, I selected a value of 12 mm. A vertically standing mount was chosen with a nominal inner diameter of 19.05 mm and an outer diameter of 40 mm. Then, I modeled the mounting design in SolidWorks.
+
+![Journal Bearing Mount](IMG_3124.JPG)
+
+![Journal Bearing Mount 3D model](A11%20Journal%20Bearing%20Mount.png)
+
 
 >Brandon Cogill: Bill of Materials and Labor Costs
 
@@ -120,13 +132,5 @@ CAD Parts can be downloaded here. Note that I did not include the simulation dat
 | | | **Total Cost** | **980** |
 
 **Total Cost of Project:** **$3,060.83**
-
->Jason Key: Journal Bearing Mount
-
-Finally, a journal bearing mount is needed to connect the bottom of the leadscrews to the frame. Using the RC 3 fit table 8a in the Machinery's Handbook on page 654, I found the needed tolerance of the diameter to be +0.0005 / -0.0000 inches. Using a Free Body Diagram, a thickness minimum was found to be 1.65 mm but to be safe, I selected a value of 12 mm. A vertically standing mount was chosen with a nominal inner diameter of 19.05 mm and an outer diameter of 40 mm. Then, I modeled the mounting design in SolidWorks.
-
-![Journal Bearing Mount](IMG_3124.JPG)
-
-![Journal Bearing Mount 3D model](A11%20Journal%20Bearing%20Mount.png)
 
 ## Communicate
