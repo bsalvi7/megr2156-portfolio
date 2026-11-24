@@ -13,7 +13,17 @@ _Reference your concept selection (Pugh matrix) here. How does this design follo
 
 To ensure the top portion of the frame created in the previous portion of the project is able to support the loads of the motor and leadscrew, an FEA analysis was required. Taking the SolidWorks model of the top of the frame, I utilized the split line tool to allow the area where the bracket would sit to be the region where the forces were distributed. This ensured an accurate simulation by making the setup as realistic as possible.
 
+<img width="500" alt="Sketch" src="1.png" />
+
+<img width="500" alt="Split Line" src="2.png" />
+
 I then applied the force of both lead screws on each region, setting each region to 1 kN. The direction was set downwards to represent the axial tension being transferred to the frame. I then applied the two separate 3.3 N*m torques in each region. Finally, I applied fixed geometry constraints to both ends of the frame to represent the top frame being mounted between both sides frame pieces. 
+
+<img width="500" alt="Top Force" src="3.png" />
+
+<img width="500" alt="Top Torque" src="4.png" />
+
+<img width="500" alt="Top Fixed Geometry" src="5.png" />
 
 I then ran the study with a coarse mesh, noting the maximum Von Mises stress, maximum displacement, and minimum factor of safety values. To ensure convergence, I ran two more iterations with increasingly finer mesh, marking the values of each. To ensure convergence, I found the percent difference of each value between iterations, ensuring that they remained within 7% for acceptable convergence. 
 
